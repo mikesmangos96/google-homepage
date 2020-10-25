@@ -1,0 +1,49 @@
+div {
+  display: flexbox;
+  }
+  nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  
+  li {
+  display: inline;
+  float: left;
+  }
+  
+  li a {
+  display: block;
+  padding: 8px;
+  color: #353535;
+  }
+  .logo {
+  margin: auto;
+  width: 80em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  .search-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  .button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  footer {
+  display: block;
+  padding: 8px;
+  color: #353535; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
